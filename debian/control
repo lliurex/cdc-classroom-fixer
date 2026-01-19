@@ -9,7 +9,7 @@ Vcs-Browser: https://github.com/lliurex/n4d
 
 Package: cdc-classroom-fixer
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}, n4d (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}, n4d 
 Description: Classroom script for clients to update CDC
   This package creates a script sent to every classroom client to force an update of
  cdc and cdc-for-clients if their installed version is bellow 0.34.1.
